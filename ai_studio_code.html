@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroPocket Pro - Recomendação Técnica Segura</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+        body { line-height: 1.6; color: #1a1a1a; background: #fff; }
+        
+        /* Sessões e Containers */
+        section { padding: 60px 20px; text-align: center; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        
+        /* Cores e Backgrounds */
+        .bg-dark { background: #0b1a0e; color: #ffffff; }
+        .bg-light { background: #ffffff; color: #1a1a1a; }
+        .bg-grey { background: #f4f7f4; color: #1a1a1a; }
+        .text-green { color: #4ade80; }
+
+        /* Tipografia */
+        h1 { font-size: 2.5rem; font-weight: 800; line-height: 1.2; margin-bottom: 20px; }
+        h2 { font-size: 1.8rem; font-weight: 700; margin-bottom: 25px; }
+        h3 { font-size: 1.3rem; font-weight: 600; }
+        p { font-size: 1.1rem; opacity: 0.9; margin-bottom: 15px; }
+
+        /* Botões */
+        .cta-button { 
+            display: inline-block; padding: 22px 35px; background: #28a745; color: white; 
+            text-decoration: none; font-weight: 800; border-radius: 10px; 
+            font-size: 1.1rem; text-transform: uppercase; transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4); margin-top: 20px;
+        }
+        .cta-button:hover { transform: translateY(-3px); background: #218838; }
+
+        /* Cards e Planos */
+        .plan-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; margin-top: 40px; }
+        .plan-card { 
+            background: white; border: 1px solid #ddd; padding: 35px; border-radius: 15px; 
+            width: 100%; max-width: 380px; position: relative; text-align: left;
+            transition: 0.3s;
+        }
+        .plan-card.vip { border: 3px solid #28a745; transform: scale(1.05); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .badge { 
+            position: absolute; top: -15px; left: 50%; transform: translateX(-50%);
+            background: #28a745; color: white; padding: 5px 15px; font-size: 0.8rem; 
+            font-weight: 800; border-radius: 20px;
+        }
+        .price { font-size: 2.2rem; font-weight: 800; margin: 15px 0; color: #1a1a1a; }
+        .check-item { display: flex; align-items: flex-start; margin-bottom: 12px; font-size: 0.95rem; }
+        .check-item::before { content: '✓'; color: #28a745; font-weight: bold; margin-right: 10px; }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            h1 { font-size: 1.8rem; }
+            .plan-card.vip { transform: scale(1); margin-top: 20px; }
+            section { padding: 40px 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- BLOCO 1: HERO (PROMESSA PRINCIPAL) -->
+    <section class="bg-dark">
+        <div class="container">
+            <h1 class="text-green">Monte recomendações técnicas mais seguras em menos de 60 segundos</h1>
+            <p style="font-size: 1.3rem;">Direto no celular, mesmo no campo.</p>
+            <p>Sem depender de memória, sem abrir 15 PDFs, sem travar na frente do produtor. Apenas com um sistema prático de decisão técnica.</p>
+            
+            <div style="margin: 30px 0;">
+                <p style="text-decoration: line-through; opacity: 0.5; margin-bottom: 5px;">De R$ 197 por apenas</p>
+                <h2 style="font-size: 3rem; margin-bottom: 0;">R$ 10,00</h2>
+            </div>
+            
+            <a href="#oferta" class="cta-button">Quero Segurança na Recomendação</a>
+        </div>
+    </section>
+
+    <!-- BLOCO 2: PRA QUEM É? -->
+    <section class="bg-light">
+        <div class="container">
+            <h2>Pra quem é o AgroPocket Pro?</h2>
+            <div style="text-align: left; max-width: 800px; margin: 0 auto;">
+                <div style="margin-bottom: 30px;">
+                    <h3 class="text-green">1️⃣ Recém-formados que ainda travam</h3>
+                    <p>Você saiu da faculdade com teoria demais e campo de menos. O AgroPocket Pro encurta essa curva e te dá mais segurança prática pra decidir sem parecer perdido(a).</p>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <h3 class="text-green">2️⃣ RTVs e técnicos que precisam responder rápido</h3>
+                    <p>Se você vive em visita, lavoura ou pós-venda, esse sistema te dá consulta rápida, lógica técnica e resposta pronta sem depender de memória.</p>
+                </div>
+                <div>
+                    <h3 class="text-green">3️⃣ Consultores que buscam agilidade</h3>
+                    <p>Você já sabe muita coisa — mas quer centralizar consulta, evitar falhas operacionais e ganhar velocidade sem perder qualidade técnica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO 3: EXPLICAÇÃO DO PRODUTO (STEP BY STEP) -->
+    <section class="bg-grey">
+        <div class="container">
+            <h2>O que você vai aprender</h2>
+            <div style="text-align: left; max-width: 800px; margin: 0 auto;">
+                <div style="background: white; padding: 25px; border-radius: 10px; margin-bottom: 20px;">
+                    <span style="font-weight: 800; color: #28a745;">PASSO 01</span>
+                    <h3 style="margin-top: 5px;">Quebrar o ciclo do medo</h3>
+                    <p>Descubra como sua mente cria o bloqueio ao recomendar — e como eliminá-lo em minutos com técnicas de decisão lógica.</p>
+                </div>
+                <div style="background: white; padding: 25px; border-radius: 10px; margin-bottom: 20px;">
+                    <span style="font-weight: 800; color: #28a745;">PASSO 02</span>
+                    <h3 style="margin-top: 5px;">Estruturar sua fala com clareza</h3>
+                    <p>Aprenda o método simples de organizar princípios ativos e doses que convencem qualquer produtor da sua competência.</p>
+                </div>
+                <div style="background: white; padding: 25px; border-radius: 10px;">
+                    <span style="font-weight: 800; color: #28a745;">PASSO 03</span>
+                    <h3 style="margin-top: 5px;">Dominar presença e autoridade</h3>
+                    <p>Pratique o controle técnico que passa autoridade e tranquilidade, mesmo sob pressão no meio do talhão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO 4: BÔNUS (VALOR AGREGADO) -->
+    <section class="bg-light">
+        <div class="container">
+            <h2 style="margin-bottom: 40px;">Bônus Exclusivos 🎁</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; text-align: left;">
+                <div style="border: 1px dashed #28a745; padding: 20px; border-radius: 10px;">
+                    <h3 style="color: #28a745; font-size: 1.1rem;">Bônus #1: Tabela de Biofungicidas</h3>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Corte a consulta demorada. Saiba qual organismo usar e onde posicionar sem "esquecer" a lógica técnica.</p>
+                </div>
+                <div style="border: 1px dashed #28a745; padding: 20px; border-radius: 10px;">
+                    <h3 style="color: #28a745; font-size: 1.1rem;">Bônus #2: Tabela Bioinseticidas I</h3>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Alvos, mecanismos e doses típicas. Feita para eliminar improviso e encurtar raciocínio no campo.</p>
+                </div>
+                <div style="border: 1px dashed #28a745; padding: 20px; border-radius: 10px;">
+                    <h3 style="color: #28a745; font-size: 1.1rem;">Bônus #3: Tabela Bioinseticidas II</h3>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Base rápida para lagartas, sugadores, Bt e baculovírus. Sua arma contra a memória furada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO 5: OFERTA (PLANOS ATUALIZADOS) -->
+    <section id="oferta" class="bg-grey">
+        <div class="container">
+            <h2>Escolha seu nível de acesso</h2>
+            <div class="plan-container">
+                
+                <!-- PLANO BÁSICO -->
+                <div class="plan-card">
+                    <h3>Plano Básico</h3>
+                    <div class="price">R$ 10,00</div>
+                    <div class="check-item">Ebook Combo Fungicidas (Soja e Milho)</div>
+                    <div class="check-item">Planilha de Produtos Comerciais</div>
+                    <div class="check-item">Tabela com +7 marcas principais</div>
+                    <div class="check-item">+50 Princípios Ativos mapeados</div>
+                    <div class="check-item">Acesso vitalício aos materiais</div>
+                    <a href="#" class="cta-button" style="width: 100%; text-align: center; font-size: 0.9rem; padding: 15px;">Comprar Básico</a>
+                </div>
+
+                <!-- PLANO VIP -->
+                <div class="plan-card vip">
+                    <div class="badge">MAIS RECOMENDADO</div>
+                    <h3 class="text-green">Plano VIP</h3>
+                    <div class="price">R$ 27,30</div>
+                    <div class="check-item"><strong>Tudo do Plano Básico</strong></div>
+                    <div class="check-item"><strong>Acesso ao Aplicativo AgroPocket</strong></div>
+                    <div class="check-item">Tabela Técnica de Bioinseticidas</div>
+                    <div class="check-item">Guia de Manejo Biológico</div>
+                    <div class="check-item">Suporte Prioritário</div>
+                    <a href="#" class="cta-button" style="width: 100%; text-align: center; font-size: 0.9rem; padding: 15px;">Garantir Acesso VIP</a>
+                </div>
+
+            </div>
+            <p style="margin-top: 40px; font-size: 0.9rem;">Diferença de R$ 17,30 — menos que um café para ter a segurança de um aplicativo no bolso.</p>
+        </div>
+    </section>
+
+    <!-- BLOCO 6: GARANTIA E RESUMO -->
+    <section class="bg-dark">
+        <div class="container">
+            <h2>Risco Zero</h2>
+            <p>Se não for tudo o que prometi? Você tem 7 dias de garantia total. Peça reembolso e pronto — sem letras miúdas.</p>
+            <div style="margin-top: 30px; opacity: 0.8; font-size: 0.9rem;">
+                <p>❌ Não precisa decorar centenas de bulas</p>
+                <p>❌ Não precisa de anos de campo para começar certo</p>
+                <p>❌ Não precisa de sinal de internet (com o material baixado)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO 7: SOBRE O AUTOR -->
+    <section class="bg-light">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 30px;">
+                <div style="width: 120px; height: 120px; background: #eee; border-radius: 50%;"></div>
+                <div style="text-align: left; max-width: 500px;">
+                    <h3 style="margin-bottom: 10px;">Sobre o Especialista</h3>
+                    <p style="font-size: 0.95rem;">Instrutor especialista em recomendação agronômica, focado em transformar a complexidade técnica em decisões rápidas e seguras para profissionais do Agro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
